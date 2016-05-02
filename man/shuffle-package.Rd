@@ -8,7 +8,9 @@ The Shuffle Estimator for Explainable Variance }
 This package implements the algorithms underlying the shuffle estimators, variance 
 estimators for one-way analysis of variance designs. The estimators can overcome correlated noise 
 by recomputing the mean-square-between statistics on a permuted version of the data. 
-The permutations should preserve the noise covariance matrix, but a parametric model for the noise covariance is not necessary. For more details see Benjamini and Yu, and here \url{http://statweb.stanford.edu/~yuvalben } \cr
+The permutations should preserve the noise covariance matrix, but a parametric model for the noise covariance is not necessary. For more details see Benjamini and Yu, and here 
+\url{http://statweb.stanford.edu/~yuvalben}.
+ 
 Two functions implement the important stages of estimation:\cr
 prepareShuffle(design_vec, premutation), which preprocess the design and computes the normalization constant for a given permutation.\cr
 estimateShuffle(response_vec, prepare), which estimates variances and effect sizes for a specific data vector.
@@ -17,13 +19,13 @@ estimateShuffle(response_vec, prepare), which estimates variances and effect siz
 \tabular{ll}{
 Package: \tab shuffle\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2013-12-31 \cr
+Version: \tab 1.0.1\cr
+Date: \tab 2013-4-24 \cr
 License: \tab GPL (>= 2) \cr
 }
 }
 \author{
-Yuval Benjamini <yuvalben@stanford.edu>
+Yuval Benjamini <yuvalbenj@gmail.com>
 }
 \references{
 Benjamini and Yu (2013), "The shuffle estimator for explainable variance in fMRI experiments", Annals of Applied Statistics 7 (4) \url{http://projecteuclid.org/euclid.aoas/1387823308}

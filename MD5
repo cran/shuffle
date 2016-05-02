@@ -1,4 +1,4 @@
-fb491528ba231bc79ed310604b528027 *DESCRIPTION
+bb90d59a8e6f33b8cbad65eb8f1cd9b4 *DESCRIPTION
 8b54e5a89fbda3af5e077053d40bec76 *NAMESPACE
 f67da18165d53a638470b555daf422ea *R/MSbetAvg.R
 053cb48c4fc67362cf695595d3905089 *R/designMat2Vec.R
@@ -20,4 +20,4 @@ e57ab5dd8ab4395fe9ea89de7de4f250 *man/estimateShuffle.Rd
 d4c4b4ffe6bc909e75a91019e0e2143a *man/getNormalizer.Rd
 e900df4fe020fd0efa2e48902bc55eb9 *man/prediction_res.Rd
 db800ea7b2b30dd17df5edff1e4f8c99 *man/prepareShuffle.Rd
-eac3df60944862952bc905e2b7e6bf0c *man/shuffle-package.Rd
+61790a85ec5875de7400a4e1c756e916 *man/shuffle-package.Rd
